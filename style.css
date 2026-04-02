@@ -59,7 +59,7 @@ h1, h2, h3 {
 
 .hero {
   background: linear-gradient(135deg, #dbeafe, #eff6ff);
-  padding: 50px 0;
+  padding: 5px 0;
 }
 
 .hero-conteudo {
@@ -100,7 +100,7 @@ h1, h2, h3 {
 }
 
 .secao {
-  padding: 40px 0;
+  padding: 20px 0;
 }
 
 .cards {
@@ -205,7 +205,10 @@ h1, h2, h3 {
   color: white;
   text-align: center;
   padding: 20px;
-  margin-top: 190px;
+  margin-top: 300px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
   
 }
 
