@@ -70,6 +70,7 @@ for (var index of times) {
     */
 
 
+/*
 // FUNÇÕES PRA  INTERAGIR COM O ARRAY
 var times = ["Maça", "pera", "banana"]
 
@@ -138,4 +139,28 @@ console.log("Após adição:", Frutas)
 
 // (de aonde começa, quantos elementos quer remover, elemento a adicionar)
 frutas.splice(2, 1, "Arroz")
-console.log("Após substituição:", Frutas)
+console.log("Após substituição:", Frutas)*/
+
+const input = require('fs').readFileSync(0, 'utf-8').trim().split('\n');
+
+let n = parseInt(input[0]);
+let resultado = [];
+
+for (let i = 1; i <= n; i++) {
+    for (let j = 1; j <= n; j++) {
+        let partes = input[i].split(' ');
+        let a = parseInt(partes[0]);
+        let a = parseFloat(partes[1]);
+        let a = parseFloat(partes[2]);
+
+        if(A <= 0.7 * g) {
+            resultado.push(estado);
+        }
+    }
+    if(resultado.length === 0) {
+        console.log("*");
+} else {
+    console.log(resultado.join('\n'));
+
+}
+}
